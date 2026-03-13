@@ -2,77 +2,109 @@
     
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
 
 header{
+  
     text-align: center;
-    background-color: rgb(56, 58, 64);
+    background-color: rgb(96, 128, 223);
    color: azure;
    margin-bottom: 30px;
 }
 
 #name{
-    font-size: 40px;
+    font-size:3em;
+    font-weight: 400;
     margin-bottom: 10px;
     color: rgb(254, 254, 254);
     #lastName{
-        color: blue;
+        color: rgb(59, 59, 113);
+        
     }
+    box-shadow: 1px 1px 5px skyblue;
 }
 
 #navbar{
-        background-color: rgb(144, 141, 141);
+    height: 35px;
+        background-color: rgb(56, 80, 124);
        display: flex;
     justify-content: space-around;
-    text-align: center;
-    color: black;
+ align-items: center;
+}
 
+#navbar a {
+     color: black;
+     font-size: 1.2em;
+     transition: 0.8ms;
+}
+
+#navbar a:active{
+    color: rgb(101, 101, 141);
 }
 
 
-
+#hero{
+     height: 400px ;
+   width: 60%;
+   margin: 10px auto;
+ border-radius: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: azure;
+ box-shadow: 4px 2px 12px gray;
+}
 
 #herosection{
-    max-width: 500px;;
-  padding: 40px;
-  background-color: rgb(215, 221, 221);
-  margin-left: 400px;
-   margin-right: 40px;
-   margin-bottom: 50px;
+  
+   height: 80% ;
+   width: 60%;
+   margin:10px auto;
+   background-color: rgb(150, 190, 243);
+   border: 2px dotted rgb(139, 161, 170);
+   border-radius: 16px;
+   box-shadow: 1.5px 2px 4px rgb(139, 161, 170) ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.4em;
+
+  
 }
 
 
-.herocontant{
-    display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-  font-size: 25px;
-  background-color: rgb(241, 236, 236);
-}
 
-#view {
-    padding: 10px 20px;
-    border: none;
-    background-color: skyblue;
-    color: black;
-    cursor: pointer;
-}
+  #herosection #view {
+        height: 15%;
+        width: 60%;
+        margin: 30px auto;
+        border-radius: 20px;
+        border: 1px soild blue;
+        background-color: rgb(99, 99, 220);
+        box-shadow: 2px 4px 20px rgb(99, 99, 220);
 
-#view:hover {
+  }
+
+ #herosection #view:active {
     background-color: deepskyblue;
+    transform: scale(0.9);
 }
 
 
 #about{
-     max-width: 500px;;
-  padding: 40px;
-  background-color: rgb(215, 221, 221);
-  margin-left: 400px;
-   margin-right: 40px;
-   margin-bottom: 50px;
-
+     height: 400px ;
+   width: 60%;
+   margin: 20px auto;
+ border-radius: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: azure;
+ box-shadow: 4px 2px 12px gray;
+ flex-direction: column;
 }
 
    #about P{
@@ -88,12 +120,16 @@ header{
    }
 
   #projects{
-                      max-width: 500px;;
-                   padding: 40px;
-                      background-color: rgb(215, 221, 221);
-                      margin-left: 400px;
-                      margin-right: 40px;
-                     margin-bottom: 50px;
+                  height: 400px ;
+   width: 60%;
+   margin: 20px auto;
+ border-radius: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: azure;
+ box-shadow: 4px 2px 12px gray;
+ flex-direction: column;
                 }
 
                   #projects P{
@@ -111,18 +147,16 @@ header{
    }
 
    #skills{
-      max-width: 500px;;
-  padding: 40px;
-  background-color: rgb(215, 221, 221);
-  margin-left: 400px;
-   margin-right: 40px;
-   margin-bottom: 50px;
-   p{
-         font-weight: 400;
-            font-size: 30px;
-            text-align: center;
-            margin-bottom: 10px;
-   }
+    height: 400px ;
+   width: 60%;
+   margin: 20px auto;
+ border-radius: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: azure;
+ box-shadow: 4px 2px 12px gray;
+ flex-direction: column;
    }
 
                 #skillbar{
@@ -134,12 +168,16 @@ header{
 
 
                 #contarct_me{
-                     max-width: 500px;;
-                   padding: 40px;
-                      background-color: rgb(215, 221, 221);
-                      margin-left: 400px;
-                      margin-right: 40px;
-                     margin-bottom: 50px;
+                      height: 400px ;
+   width: 60%;
+   margin: 30px auto;
+ border-radius: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: azure;
+ box-shadow: 4px 2px 12px gray;
+ flex-direction: column;
                     
                 }
                 
