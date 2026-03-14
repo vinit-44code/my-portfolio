@@ -55,6 +55,11 @@ header{
  align-items: center;
  background-color: azure;
  box-shadow: 4px 2px 12px gray;
+
+}
+
+#hero:hover{
+    transform: scale(1.03);
 }
 
 #herosection{
@@ -107,16 +112,25 @@ header{
  flex-direction: column;
 }
 
-   #about P{
-            font-weight: 400;
-            font-size: 30px;
-            text-align: center;
-            margin-bottom: 10px;
-   }
+#about:hover{
+    transform: scale(1.03);
+}
+
+   
   #aboutME{
-            text-align: center;
-            background-color: rgb(237, 243, 243);
-            font-size: 20px;
+             height: 80% ;
+   width: 60%;
+   margin:10px auto;
+   background-color: rgb(150, 190, 243);
+   border: 2px dotted rgb(139, 161, 170);
+   border-radius: 16px;
+   box-shadow: 1.5px 2px 4px rgb(139, 161, 170) ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 1.2em;
    }
 
   #projects{
@@ -132,6 +146,10 @@ header{
  flex-direction: column;
                 }
 
+                #projects:hover{
+    transform: scale(1.03);
+}
+
                   #projects P{
             font-weight: 400;
             font-size: 30px;
@@ -140,10 +158,19 @@ header{
    }
 
    #proj{
-       text-align: center;
-            background-color: rgb(237, 243, 243);
-            font-size: 20px;
-            text-decoration: none;
+           height: 80% ;
+   width: 60%;
+   margin:10px auto;
+   background-color: rgb(150, 190, 243);
+   border: 2px dotted rgb(139, 161, 170);
+   border-radius: 16px;
+   box-shadow: 1.5px 2px 4px rgb(139, 161, 170) ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 1.2em;
    }
 
    #skills{
@@ -159,11 +186,24 @@ header{
  flex-direction: column;
    }
 
+#skills:hover{
+    transform: scale(1.03);
+}
+
                 #skillbar{
-                     text-align: center;
-            background-color: rgb(237, 243, 243);
-            font-size: 20px;
-            text-decoration: none;
+                     height: 80% ;
+   width: 60%;
+   margin:10px auto;
+   background-color: rgb(150, 190, 243);
+   border: 2px dotted rgb(139, 161, 170);
+   border-radius: 16px;
+   box-shadow: 1.5px 2px 4px rgb(139, 161, 170) ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 1.2em;
                 }
 
 
@@ -180,6 +220,11 @@ header{
  flex-direction: column;
                     
                 }
+
+                          #contarct_me:hover{
+    transform: scale(1.03);
+}
+
                 
                   #contarct_me P{
             font-weight: 400;
@@ -190,10 +235,19 @@ header{
    }
 
    #contract{
-         text-align: center;
-            background-color: rgb(237, 243, 243);
-            font-size: 20px;
-            text-decoration: none;
+           height: 80% ;
+   width: 60%;
+   margin:10px auto;
+   background-color: rgb(150, 190, 243);
+   border: 2px dotted rgb(139, 161, 170);
+   border-radius: 16px;
+   box-shadow: 1.5px 2px 4px rgb(139, 161, 170) ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 1.2em;
    }
 
    .contactInfo form {
@@ -201,13 +255,28 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 15px;
+   
 }
 
 .contactInfo input {
     padding: 10px;
     width: 250px;
     border: 1px solid #ccc;
+     border-radius: 12px;
+      box-shadow: 2px 4px 8px #acacac;
 }
+
+.contactInfo button{
+    width: 90%;
+    height: 120%;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px gray;
+}
+.contactInfo button:active{
+    background-color: lightblue;
+    transform: scale(0.8);
+}
+
 
  
 
